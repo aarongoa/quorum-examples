@@ -32,8 +32,8 @@ cp build/bin/bootnode /usr/local/bin
 popd >/dev/null
 
 # copy examples
-cp -r /vagrant/examples /home/ubuntu/quorum-examples
-chown -R ubuntu:ubuntu /home/ubuntu/quorum /home/ubuntu/quorum-examples
+# cp -r /vagrant/examples /home/ubuntu/quorum-examples
+# chown -R ubuntu:ubuntu /home/ubuntu/quorum /home/ubuntu/quorum-examples
 
 # done!
 banner "Quorum"
