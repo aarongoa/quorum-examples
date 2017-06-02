@@ -21,7 +21,6 @@ tar xfz $GOREL
 mv go /usr/local/go
 rm -f $GOREL
 PATH=$PATH:/usr/local/go/bin
-echo 'PATH=$PATH:/usr/local/go/bin' >> /home/ubuntu/.bashrc
 
 # make/install quorum
 git clone https://github.com/jpmorganchase/quorum.git
